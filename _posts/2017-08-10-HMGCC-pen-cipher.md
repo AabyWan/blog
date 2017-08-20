@@ -10,7 +10,7 @@ image:
 # Hidden challenge in plain sight
 On Friday 11 August, [HMGCC](http://www.hmgcc.gov.uk/) hosted the third out of five Face to Face events at the UK Defence Academy which is part of the 2017 [Cyber Security Challenge UK](https://www.cybersecuritychallenge.org.uk/competitions/face-to-face) masterclass qualifiers.
 
-As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with hex characters combining into the letters **HMGCC**. It took the better of an hour before officials had to announce that everybody has to "search their tables for any foreign objects". A pen had for each team member had been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced.
+As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with HEX characters combining into the letters **HMGCC**. It took the better of an hour before officials had to announce that everybody had to "search their tables for any foreign objects". A pen had for each team member been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced.
 
 {% capture images %}
 	/images/posts/hmgcc-hex-pen.jpg
