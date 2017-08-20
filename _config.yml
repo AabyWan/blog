@@ -14,9 +14,9 @@ owner:
   bio:            "Bio from _config"
   email:          blog@aabywan.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/aabywan
+  twitter:        aabywan
   #facebook:       
-  github:         https://github.com/aabywan
+  github:         aabywan
   #stackexchange:  
   linkedin:       
   #instagram:      

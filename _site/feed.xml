@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="https://aabywan.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://aabywan.com/" rel="alternate" type="text/html" /><updated>2017-08-20T01:35:36+01:00</updated><id>https://aabywan.com/</id><title>AabyWan&#39;s blog</title><subtitle>Ph.D. Security Researcher.</subtitle><entry><title>HMGCC F2F masterclass qualifier</title><link href="https://aabywan.com/HMGCC-f2f/" rel="alternate" type="text/html" title="HMGCC F2F masterclass qualifier" /><published>2017-08-11T00:00:00+01:00</published><updated>2017-08-11T00:00:00+01:00</updated><id>https://aabywan.com/HMGCC-f2f</id><content type="html" xml:base="https://aabywan.com/HMGCC-f2f/"></content><category term="HMGCC" /><category term="UK Cyber Security Challenge" /><summary></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2017-08-20T12:56:44+01:00</updated><id>/</id><title>AabyWan&#39;s blog</title><subtitle>Ph.D. Security Researcher.</subtitle><entry><title>HMGCC F2F masterclass qualifier</title><link href="/HMGCC-f2f/" rel="alternate" type="text/html" title="HMGCC F2F masterclass qualifier" /><published>2017-08-11T00:00:00+01:00</published><updated>2017-08-11T00:00:00+01:00</updated><id>/HMGCC-f2f</id><content type="html" xml:base="/HMGCC-f2f/"></content><category term="HMGCC" /><category term="UK Cyber Security Challenge" /><summary></summary></entry><entry><title>HMGCC pen challenge</title><link href="/HMGCCpen1/" rel="alternate" type="text/html" title="HMGCC pen challenge" /><published>2017-08-10T00:00:00+01:00</published><updated>2017-08-10T00:00:00+01:00</updated><id>/HMGCCpen1</id><content type="html" xml:base="/HMGCCpen1/">&lt;figure&gt;
+    
+    &lt;a href=&quot;/images/posts/hmgcc-hex-pen.jpg&quot;&gt;&lt;img src=&quot;/images/posts/hmgcc-hex-pen.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;
+    
+    &lt;figcaption&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&quot;pen-values-digitalized&quot;&gt;Pen values digitalized&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;A5     97  0E      CD  3CF2A0   F3BFAF  2418FC
+E2     CB  C906  6EBD  3A       F2      CA
+B972E5CB9  72  EA  59  70  ECD  3C      F2
+A0     F3  BF  AF  24  18  FC   E2      CB
+C9     06  6E      BD  3AF2CA   B972E5  CB972E
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><category term="HMGCC" /><category term="UK Cyber Security Challenge" /><summary></summary></entry></feed>
