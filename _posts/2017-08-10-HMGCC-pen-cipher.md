@@ -29,7 +29,7 @@ C9     06  6E      BD  3AF2CA   B972E5  CB972E
 ```
 With the HEX values captured, an initial conversion from HEX to ASCII was attempted using [asecuritysite's ASCII, Hex, Base-64 and Binary convertor](https://www.asecuritysite.com/coding/ascii?hex=62657274&hex=62657274). The results did not return 100% positive. However, the ASCII conversion gave away that the HEX values had been duplicated. At this moment, we got stuck and the time presure with other challenges due made us decide on utilising one of our free hints (hint disclosed in next section).
 
-We did not have enough time to program anything during the challenge, thus the above website was used for analysis and conversion from HEX to ASCII. I decided that it would be interesting to script a solution and below code snippet shows how it could have been done using Python 2.7. 
+We did not have enough time to program anything during the challenge, thus the above website was used for analysis and conversion from HEX to ASCII. After the challenge, I decided that it would be interesting to script a solution and below code snippet shows how it could have been done using Python 2.7. 
 
 ```python
 import binascii
@@ -96,8 +96,7 @@ binaryString = bin(int(hex,16))
 bytes = []
 b = bitstring.BitArray(binaryString)
 for byte in b.cut(7): #cut bytestream into chunks of 7-bytes
-    intI = int(byte.bin,2)
-    print chr(intI)
+    print chr(int(byte.bin,2)) #conv datatypes and print bin>int>char
 ```
 
 Python printout:

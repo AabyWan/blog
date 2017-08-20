@@ -133,7 +133,7 @@ Reading time ~4 minutes
       <h1 id="hidden-challenge-in-plain-sight">Hidden challenge in plain sight</h1>
 <p>On Friday 11 August, <a href="http://www.hmgcc.gov.uk/">HMGCC</a> hosted the third out of five Face to Face events at the UK Defence Academy which is part of the 2017 <a href="https://www.cybersecuritychallenge.org.uk/competitions/face-to-face">Cyber Security Challenge UK</a> masterclass qualifiers.</p>
 
-<p>As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with hex characters combining into the letters <strong>HMGCC</strong>. It took the better of an hour before officials had to announce that everybody has to “search their tables for any foreign objects”. A pen had for each team member had been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced.</p>
+<p>As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with HEX characters combining into the letters <strong>HMGCC</strong>. It took the better of an hour before officials had to announce that everybody had to “search their tables for any foreign objects”. A pen had for each team member been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced.</p>
 
 <figure>
     
@@ -154,7 +154,7 @@ C9     06  6E      BD  3AF2CA   B972E5  CB972E
 </div>
 <p>With the HEX values captured, an initial conversion from HEX to ASCII was attempted using <a href="https://www.asecuritysite.com/coding/ascii?hex=62657274&amp;hex=62657274">asecuritysite’s ASCII, Hex, Base-64 and Binary convertor</a>. The results did not return 100% positive. However, the ASCII conversion gave away that the HEX values had been duplicated. At this moment, we got stuck and the time presure with other challenges due made us decide on utilising one of our free hints (hint disclosed in next section).</p>
 
-<p>We did not have enough time to program anything during the challenge, thus the above website was used for analysis and conversion from HEX to ASCII. I decided that it would be interesting to script a solution and below code snippet shows how it could have been done using Python 2.7.</p>
+<p>We did not have enough time to program anything during the challenge, thus the above website was used for analysis and conversion from HEX to ASCII. After the challenge, I decided that it would be interesting to script a solution and below code snippet shows how it could have been done using Python 2.7.</p>
 
 <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">binascii</span>
 
@@ -219,8 +219,7 @@ Count of bytes: 56 bytes
 <span class="nb">bytes</span> <span class="o">=</span> <span class="p">[]</span>
 <span class="n">b</span> <span class="o">=</span> <span class="n">bitstring</span><span class="o">.</span><span class="n">BitArray</span><span class="p">(</span><span class="n">binaryString</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">byte</span> <span class="ow">in</span> <span class="n">b</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="mi">7</span><span class="p">):</span> <span class="c">#cut bytestream into chunks of 7-bytes</span>
-    <span class="n">intI</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">byte</span><span class="o">.</span><span class="nb">bin</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-    <span class="k">print</span> <span class="nb">chr</span><span class="p">(</span><span class="n">intI</span><span class="p">)</span>
+    <span class="k">print</span> <span class="nb">chr</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">byte</span><span class="o">.</span><span class="nb">bin</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span> <span class="c">#conv datatypes and print bin&gt;int&gt;char</span>
 </code></pre>
 </div>
 
