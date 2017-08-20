@@ -1,1 +1,1 @@
-# Welcome to the building site of AabyWan's blog
+# functioning blog for www.aabywan.com
