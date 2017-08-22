@@ -6,18 +6,15 @@ tags: [HMGCC,UK Cyber Security Challenge]
 image:
 # background: triangular.png
 ---
-
-# Hidden challenge in plain sight
 On Friday 11 August, [HMGCC](http://www.hmgcc.gov.uk/) hosted the third out of five Face to Face events at the UK Defence Academy which is part of the 2017 [Cyber Security Challenge UK](https://www.cybersecuritychallenge.org.uk/competitions/face-to-face) masterclass qualifiers.
 
-As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with HEX characters combining into the letters **HMGCC**. It took the better of an hour before officials had to announce that everybody had to "search their tables for any foreign objects". A pen had for each team member been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced.
-
+As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with HEX characters forming the letters **HMGCC**. It took the better of an hour before officials had to announce that everybody should "search their tables for any foreign objects". A pen had for each team member been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced. Below is a photo of the pen.
 {% capture images %}
 	/images/posts/hmgcc-hex-pen.jpg
 {% endcapture %}
-{% include gallery images=images cols=1 %}
+{% include gallery images=images caption="HMGCC Pen with challenge hidden in plain sight." cols=1 %}
 
-# Pen HEX values digitalized
+# Pen HEX values digitalised
 The obvious first step was to digitalise the HEX values found on the pen. However, some of the letters and digits caused issues as it was hard to distinguish S and 5 from each other. Therefore, first attempt failed and my team mate Eed gave a helping hand by checking for typo's. Below is the final digital printout which is the basis of the challenge.
 
 ```

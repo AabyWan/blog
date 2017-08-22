@@ -1,40 +1,23 @@
 title:            AabyWan's blog
-description:      Ph.D. Security Researcher.
+description:      \@AabyWan's blog about CTF's and research related activities.
 disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
-# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
-# When testing locally leave blank or use http://localhost:4000
 url: #https://aabywan.com
 
-# Owner/author information
 owner:
   name:           Peter Aaby
   avatar:         avatar.jpg
-  bio:            "Bio from _config"
+  bio:            "PhD Security Researcher @ Edinburgh Napier University. 
+  Founder and president of ENUSEC."
   email:          blog@aabywan.com
-  # Social networking links used in footer. Update and remove as you like.
   twitter:        aabywan
-  #facebook:       
   github:         aabywan
-  #stackexchange:  
-  linkedin:       
-  #instagram:      
-  #flickr:         
-  #tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  #google_plus:
+  linkedin:       peteraaby
 
 # Background image to be tiled on all pages
 background: 
 
-# Analytics and webmaster tools stuff goes here
-#google_analytics:   
-#google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify:         
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/London
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
@@ -48,7 +31,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title/
 
 # Amount of post to show on home page
