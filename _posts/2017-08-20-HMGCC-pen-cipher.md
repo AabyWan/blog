@@ -6,7 +6,7 @@ tags: [HMGCC,UK Cyber Security Challenge]
 image:
 # background: triangular.png
 ---
-On Friday 11 August, [HMGCC](http://www.hmgcc.gov.uk/) hosted the third out of five Face to Face events at the UK Defence Academy which is part of the 2017 [Cyber Security Challenge UK](https://www.cybersecuritychallenge.org.uk/competitions/face-to-face) masterclass qualifiers.
+On Friday 11 August, [HMGCC](https://www.hmgcc.gov.uk/) hosted the third out of five Face to Face events at the UK Defence Academy which is part of the 2017 [Cyber Security Challenge UK](https://www.cybersecuritychallenge.org.uk/competitions/face-to-face) masterclass qualifiers.
 
 As host, HMGCC found the perfect environment to host a cyber security challenge and it was within this environment that they managed to hide one of their challenges in plain sight; a swag pen with HEX characters forming the letters **HMGCC**. It took the better of an hour before officials had to announce that everybody should "search their tables for any foreign objects". A pen had for each team member been placed on our desks overnight, and I personally (as well as everyone else) did not think any more of this until the hint was announced. Below is a photo of the pen.
 {% capture images %}
@@ -165,10 +165,10 @@ e
 .
 ```
 
-Browsing to [HMGCC's](http://www.hmgcc.gov.uk) website, have a look at the top left logo and picture with a similar quote. Picture linked below.
+Browsing to [HMGCC's](https://www.hmgcc.gov.uk) website, have a look at the top left logo and picture with a similar quote. Picture linked below.
 
 Thanks to HMGCC for the challenge, now to the second pen that was handed out by the end of the Face to Face challenge :)
 
 <figure class="half">
-	<img src="http://www.hmgcc.gov.uk/assets/img/logo.png" alt="">
+	<img src="https://www.hmgcc.gov.uk/assets/img/logo.png" alt="">
 </figure>
