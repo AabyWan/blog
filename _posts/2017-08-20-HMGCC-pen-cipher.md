@@ -165,10 +165,10 @@ e
 .
 ```
 
-Browsing to [HMGCC's](https://www.hmgcc.gov.uk) website, have a look at the top left logo and picture with a similar quote. Picture linked below.
+Browsing to [HMGCC's](http://www.hmgcc.gov.uk) website, have a look at the top left logo and picture with a similar quote. Picture linked below.
 
 Thanks to HMGCC for the challenge, now to the second pen that was handed out by the end of the Face to Face challenge :)
 
 <figure class="half">
-	<img src="https://www.hmgcc.gov.uk/assets/img/logo.png" alt="">
+	<img src="http://www.hmgcc.gov.uk/assets/img/logo.png" alt="">
 </figure>
